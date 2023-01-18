@@ -214,7 +214,7 @@ app.get('/symbol/:num', function(req, res) {
 
 new SocketClient('darusdt', 1, 3600000); 
 new SocketClient('dashusdt', 2, 3605000); 
-new SocketClient('datausdt', 3, 3610000); 
+//new SocketClient('datausdt', 3, 3610000); 
 new SocketClient('dcrusdt', 4, 3615000); 
 new SocketClient('degousdt', 5, 3620000); 
 new SocketClient('dentusdt', 6, 3625000); 
